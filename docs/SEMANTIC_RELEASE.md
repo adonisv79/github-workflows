@@ -9,7 +9,7 @@ Do the following in your project
 * Make sure you have first installed [husky](/docs/HUSKY.md) as it is needed by this for enforcing commitlint rules
 * Install semantic-release, commitlint and husky as dev dependency 
   * `npm install --save-dev @commitlint/cli @commitlint/config-conventional`
-  * `npm install --save-dev semantic-release @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/changelog @semantic-release/github`
+  * `npm install --save-dev semantic-release @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/changelog @semantic-release/github @semantic-release/exec`
 
 * create a `commitlint.config.js` configuration file in the root and copy-paste the following
 
@@ -39,7 +39,11 @@ Do the following in your project
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
-        "@semantic-release/github"
+        "@semantic-release/github",
+        {
+          "path": "@semantic-release/exec",
+          "exec": "npm version ${nextRelease.version} --no-git-tag-version"
+        }
       ]
     }
     ```
