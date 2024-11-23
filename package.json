@@ -1,6 +1,6 @@
 {
   "name": "@adonisv79/github-workflows-test",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Test app using github workflow",
   "main": "index.js",
   "directories": {
