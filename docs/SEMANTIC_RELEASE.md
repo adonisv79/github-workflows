@@ -81,3 +81,9 @@ husky - commit-msg script failed (code 1)
 
 ## Automating releases
 
+Of course the goal is automation so we need to get the CICD part going. 
+
+* First copy the Semantic-release workflow file found here in `.github/workflows/semantic-release.yaml` into your own project.
+* Commit the changes into your main. The github actions will trigger for this like so...
+
+[Github actions running icon](/docs/images/github-commits-workflow-running.png)
