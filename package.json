@@ -11,7 +11,8 @@
     "url": "https://github.com/adonisv79/github-workflows.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "author": "Adonis Lee Villamor",
   "license": "ISC",
