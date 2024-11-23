@@ -85,6 +85,12 @@ Of course the goal is automation so we need to get the CICD part going.
 * First copy the Semantic-release workflow file found here in `.github/workflows/semantic-release.yaml` into your own project.
 * Commit the changes into your main. The github actions will trigger for this like so...
 
-[Github actions running icon](/docs/images/github-commits-workflow-running.png)
+    ![Github actions running icon](/docs/images/github-commits-workflow-running.png)
 
-* clicki on that for details
+* click on that for details. The following is a successful commit
+
+    ![Semantic Release workflow success](/docs/images/github-commits-semanticrelease-succes.png)
+
+* If you go into your releases page, there will be a new publish tag.
+
+    ![Github new published release tag](/docs/images/github-publish-tag.png)
