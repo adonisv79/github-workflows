@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/adonisv79/github-workflows/compare/v1.3.0...v1.3.1) (2024-11-24)
+
+
+### Bug Fixes
+
+* add github permission to semantic-release ([ebde5dd](https://github.com/adonisv79/github-workflows/commit/ebde5ddaffdbaef73e738d047d469650c22efa0d))
+* reapplied commit-analyzer ([f2e83cb](https://github.com/adonisv79/github-workflows/commit/f2e83cb123db797aa431bad47a14dd8c7277ca69))
+
 # [1.3.0](https://github.com/adonisv79/github-workflows/compare/v1.2.0...v1.3.0) (2024-11-24)
 
 
