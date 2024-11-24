@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/adonisv79/github-workflows/compare/v1.0.0...v1.1.0) (2024-11-24)
+
+
+### Features
+
+* GHCR deployment ([5914c74](https://github.com/adonisv79/github-workflows/commit/5914c743f5133102ab68378afeb64ffd2fb350c5))
+
 # 1.0.0 (2024-11-24)
 
 
