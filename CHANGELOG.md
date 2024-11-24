@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/adonisv79/github-workflows/compare/v1.1.0...v1.1.1) (2024-11-24)
+
+
+### Bug Fixes
+
+* Update documentation for GHCR ([333efd9](https://github.com/adonisv79/github-workflows/commit/333efd97b4415857f7f9c2caba4cf65298b315d3))
+
 # [1.1.0](https://github.com/adonisv79/github-workflows/compare/v1.0.0...v1.1.0) (2024-11-24)
 
 
