@@ -1,6 +1,6 @@
 {
   "name": "@adonisv79/github-workflows-test",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Test app using github workflow",
   "main": "index.js",
   "directories": {
@@ -24,6 +24,7 @@
     "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/github": "^11.0.1",
+    "@semantic-release/git": "^10.0.1",
     "@semantic-release/release-notes-generator": "^14.0.1",
     "husky": "^9.1.7",
     "semantic-release": "^24.2.0"
