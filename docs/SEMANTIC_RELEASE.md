@@ -1,3 +1,5 @@
+> [BACK](/README.md)
+
 # Semantic Release and CommitLint
 
 One of the most popular tools for managing releases is the Semantic-Release(https://github.com/semantic-release/semantic-release) project. It uses Conventional commit which we can enfore using [CommitLint](https://github.com/conventional-changelog/commitlint/#what-is-commitlint)
