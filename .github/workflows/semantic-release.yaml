@@ -1,9 +1,5 @@
 name: Release
 
-permissions:
-  contents: write     # Grants permission to push code and release tags
-  issues: write       # Grants permission to manage issues (optional, depends on the setup)
-
 on:
   push:
     branches:
